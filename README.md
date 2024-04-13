@@ -7,7 +7,7 @@ In this work, we used a VR environment that includes a rollercoaster to elicit c
 simple setup with sensory devices to get physiological responses. We deployed three different deep learning
 models and one classical machine learning model to detect CS. Also, we realized a completely real-time
 system using our best model. We demostrated that 4-layered bidirectional LSTM with data augmentation
-gives superior results (91.7% accuracy, 91.1% f1-score) and this combination is the best solution for
+gives superior results and this combination is the best solution for
 sensor-based CS detection in real time applications particularly for wearable devices.
 
 ### Eye Tracking Data
