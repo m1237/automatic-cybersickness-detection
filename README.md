@@ -1,7 +1,7 @@
 # automatic-cybersickness-detection
 Automatic Cybersickness Detection by Deep Learning of Augmented Physiological Data from Off-the-Shelf Consumer-Grade Sensors
 
-![alt text](https://github.com/m1237/automatic-cybersickness-detection/edit/main/cs_teaser.jpg?raw=true)
+![alt text](https://github.com/m1237/automatic-cybersickness-detection/blob/main/cs_teaser.jpg?raw=true)
 
 ### Eye Tracking Data
 
