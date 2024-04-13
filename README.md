@@ -9,7 +9,14 @@ The eye tracking data have been recorded with Unity and [SRanipal](https://forum
 
 ### Physiological Data
 
-The physiological data was recorded by using two wearable sensory devices:
+The physiological data was recorded by using three wearable sensory devices:
+
+Eye-Tracker 90 Hz Pupil Diameter ((left,right eye) 2
+90 Hz Gaze direction(left,right eye; x,y,z values)
+- Pico Neo 2 VR Headset (Tobii Ocumen):
+    - `Eye Tracking (ET)`:
+        - `Pupil Diameter`: 90 Hz ((left,right eye)
+        - `Gaze direction`: 90 Hz (left,right eye; x,y,z values)
 - Empatica E4 wristband: 
     - `Acceleration (ACC)`: 32 Hz, (x,y,z) values
     - `Electrodermal Activity (EDA)`: 4 Hz, skin conductance values in micro Siemens unit
