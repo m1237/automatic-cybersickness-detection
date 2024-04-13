@@ -10,9 +10,7 @@ system using our best model. We demostrated that 4-layered bidirectional LSTM wi
 gives superior results and this combination is the best solution for
 sensor-based CS detection in real time applications particularly for wearable devices.
 
-### Eye Tracking Data
 
-The eye tracking data have been recorded with Unity and [SRanipal](https://forum.vive.com/topic/5642-sranipal-getting-started-steps/). The csv files contain the raw data recording from each session.
 
 ### Physiological Data
 
