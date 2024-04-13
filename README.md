@@ -3,6 +3,13 @@ Automatic Cybersickness Detection by Deep Learning of Augmented Physiological Da
 
 ![alt text](https://github.com/m1237/automatic-cybersickness-detection/blob/main/cs_teaser.jpg?raw=true)
 
+In this work, we used a VR environment that includes a rollercoaster to elicit cybersickness and used a
+simple setup with sensory devices to get physiological responses. We deployed three different deep learning
+models and one classical machine learning model to detect CS. Also, we realized a completely real-time
+system using our best model. We demostrated that 4-layered bidirectional LSTM with data augmentation
+gives superior results (91.7% accuracy, 91.1% f1-score) and this combination is the best solution for
+sensor-based CS detection in real time applications particularly for wearable devices.
+
 ### Eye Tracking Data
 
 The eye tracking data have been recorded with Unity and [SRanipal](https://forum.vive.com/topic/5642-sranipal-getting-started-steps/). The csv files contain the raw data recording from each session.
