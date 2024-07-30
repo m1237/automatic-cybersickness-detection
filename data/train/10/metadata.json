@@ -1,0 +1,16 @@
+{
+ "ACC": "Empatica",
+ "BVP": "Empatica",
+ "IBI": "Empatica",
+ "HR_EMPATICA": "Empatica",
+ "EDA": "Empatica",
+ "TEMP": "Empatica"
+}{
+ "ACC": "Polar_h10",
+ "BVP": "Empatica",
+ "IBI": "Empatica",
+ "HR_EMPATICA": "Empatica",
+ "EDA": "Empatica",
+ "TEMP": "Empatica",
+ "ECG": "Polar_h10"
+}

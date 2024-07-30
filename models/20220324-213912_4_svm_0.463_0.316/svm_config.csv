@@ -1,0 +1,14 @@
+Configuration:
+	id: 4
+	algorithm: svm
+	use_eyetracking_data: True
+	use_sensor_data: True
+	dropout_lstm: None
+	dropout_p: None
+	learning_rate: None
+	hidden_size1: None
+	hidden_size2: None
+	batch_size: 256
+	timesteps: 30
+	buffer: 0.5 S
+	buffer_cs_timestamps: 1000000

@@ -1,0 +1,13 @@
+CSClassifierCNNLSTM(
+  (conv1): Conv1d(56, 64, kernel_size=(4,), stride=(1,))
+  (conv2): Conv1d(64, 64, kernel_size=(4,), stride=(1,))
+  (pool): MaxPool1d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (lstm): LSTM(64, 64, batch_first=True, dropout=0.5)
+  (dropout): Dropout(p=0.7, inplace=False)
+  (fc_1): Linear(in_features=64, out_features=16, bias=True)
+  (relu): ReLU()
+  (fc): Linear(in_features=16, out_features=1, bias=True)
+  (softmax): Softmax(dim=1)
+  (sigmoid): Sigmoid()
+)
