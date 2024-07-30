@@ -40,7 +40,7 @@ Run 'cgan_modal/model.py' for data augmentation.
 
 ### Disclaimer: 
 
-The code and materials provided in this repository are offered "as is" and without any warranties, either express or implied. The authors and contributors make no guarantees regarding the accuracy, reliability, or completeness of the code, documentation, or any related materials. The authors and contributors take no responsibility for the results produced by using this code. Any outcomes, findings, or conclusions drawn from the use of the code are solely the responsibility of the user. Users are advised to conduct their own testing and validation of the code to ensure it meets their requirements.
+The code and materials provided in this repository are offered "as is" and without any warranties, either express or implied. The authors and contributors make no guarantees regarding the accuracy, reliability, or completeness of the code, documentation, or any related materials. The authors and contributors take no responsibility for the results produced by using this repository. Any outcomes, findings, or conclusions drawn from the use of the code are solely the responsibility of the user. Users are advised to conduct their own testing and validation of the code to ensure it meets their requirements.
 
 #### Research and Study Use
 The code in this repository is intended for research and educational purposes only. It is not intended for use in production environments or as part of any commercial product or service. Users must obtain appropriate permissions and comply with any applicable laws and regulations when using the code for research or study.

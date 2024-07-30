@@ -263,7 +263,7 @@ if __name__ == '__main__':
                 # init LSTM model
                 input_size = datasets_train.features.shape[2]  # number of features
                 model = CSClassifierLSTM(num_classes, input_size, config.hidden_size1, config.hidden_size2,
-                                            dropout_lstm=config.dropout_lstm, dropout_p=config.dropout_p)
+                                            dropout_lstm=config.dropout_lstm, dropout_p=config.dropout_p, bidirectional = True)
             elif config.algorithm == "cnn":
                 # input_size = 12 * config.hidden_size1  # for LSTM after CNN, 768 according to paper
                 input_size = config.hidden_size1

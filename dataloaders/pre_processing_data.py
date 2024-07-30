@@ -8,7 +8,7 @@ import heartpy as hp
 from matplotlib import pyplot as plt
 from scipy.signal import resample
 
-from src.dataloaders.util import json_to_np_array, acc_json_to_dataframe, json_to_dataframe
+from dataloaders.util import json_to_np_array, acc_json_to_dataframe, json_to_dataframe
 
 
 def biospy():

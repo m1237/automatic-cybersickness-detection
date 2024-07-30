@@ -30,7 +30,7 @@ def blinking_plotter():
     y[y == True] = 10
     y[y == False] = 5
     print(y)
-    x = list(range(len(eye_tracking_df)))
+    x = list(range(len(Dataloader_Sensors.eye_tracking_df)))
     # plotting
     plt.title("Blinking Changes")
     plt.xlabel("X axis")

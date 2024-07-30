@@ -17,7 +17,7 @@ class CSClassifierLSTM(nn.Module):
         - loss function: CCE (categorical cross-entropy loss)
     """
 
-    def __init__(self, num_classes, input_size, hidden_size1, hidden_size2, dropout_lstm, dropout_p):
+    def __init__(self, num_classes, input_size, hidden_size1, hidden_size2, dropout_lstm, dropout_p, bidirectional):
         """
         Args:
             num_classes (int): The number of classes
@@ -34,9 +34,10 @@ class CSClassifierLSTM(nn.Module):
         self.hidden_size2 = hidden_size2
         self.dropout_lstm = dropout_lstm
         self.dropout_p = dropout_p
+        self.bidirectional = bidirectional
 
         self.lstm = nn.LSTM(input_size=input_size, hidden_size=hidden_size1, batch_first=True,
-                                          dropout=dropout_lstm)  # LSTM
+                                          dropout=dropout_lstm, bidirectional=bidirectional)  # LSTM
         self.dropout = nn.Dropout(dropout_p)
         self.fc_1 = nn.Linear(hidden_size1, hidden_size2)  # fully connected 1
         self.relu = nn.ReLU()  # ReLU as activation function
