@@ -34,8 +34,8 @@ The physiological data was recorded by using three wearable sensory devices:
 
 ## Train 
 
-Run 'train_model.py' for the training. For testing run 'evaluate_model.py'. Cross-validation should be done within train set.
-Run 'cgan_modal/model.py' for data augmentation.
+Run `train_model.py` for the training. For testing run `evaluate_model.py`. Cross-validation should be done within train set.
+Run `cgan_modal/model.py` for data augmentation.
 
 
 ### Disclaimer: 
