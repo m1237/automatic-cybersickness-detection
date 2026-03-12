@@ -37,6 +37,21 @@ The physiological data was recorded by using three wearable sensory devices:
 Run `train_model.py` for the training. For testing run `evaluate_model.py`. Cross-validation should be done within train set.
 Run `cgan_modal/model.py` for data augmentation.
 
+### Citation
+Please cite our paper below when using or referring to our work.
+```
+@article{yalcin_automatic_2024,
+	author = {Yalcin, Murat and Halbig, Andreas and Fischbach, Martin and Latoschik, Marc Erich},
+	year = {2024},
+	month = {06},
+	title = {Automatic cybersickness detection by deep learning of augmented physiological data from off-the-shelf consumer-grade sensors},
+	volume = {5},
+	journal = {Frontiers in Virtual Reality},
+	url     = {https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2024.1364207},
+	issn    = {2673-4192},
+	doi = {10.3389/frvir.2024.1364207}
+}
+```
 
 ### Disclaimer: 
 
